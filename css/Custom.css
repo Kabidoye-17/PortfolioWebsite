@@ -8,7 +8,7 @@ body{
   height: fit-content;
 }
 
-nav a{
+.navbuttons{
   font-family: "Pridi";
   font-weight: 350;
   font-size: 30px;
@@ -16,6 +16,8 @@ nav a{
   padding: 5px 20px;
   height: 40px;
   color: white;
+  border: none;
+  background-color: transparent;
 }
 nav{
   z-index: 3;
@@ -27,10 +29,10 @@ nav{
   top:15px;
 
 }
-nav a:hover{
+.navbuttons:hover{
   color: yellow;
 }
-nav a:active{
+.navbuttons:active{
   color: yellow;
 }
 
@@ -113,7 +115,7 @@ nav a:active{
   cursor: pointer;
 }
 
-#second\ section{
+#second-section{
   z-index: 1;
   height: 690px;
   width: 100%;

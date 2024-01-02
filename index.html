@@ -12,9 +12,9 @@
 <body>
 <div class="sections" id="first section">
   <nav>
-    <a href=""> <i class="fa-solid fa-user-large"></i>About Me</a>
-    <a href=""> <i class="fa-solid fa-folder-open"></i>Projects</a>
-    <a href=""><i class="fa-solid fa-phone"></i>Contact Me</a>
+    <button class="navbuttons" onclick="scrollToSection('second-section')"> <i class="fa-solid fa-user-large"></i>About Me </button>
+    <button class="navbuttons"  > <i class="fa-solid fa-folder-open"></i>Projects</button>
+    <button class="navbuttons" ><i class="fa-solid fa-phone"></i>Contact Me</button>
   </nav>
   <h1 id="kelly" class="name">Kelly</h1>
   <h1 id="Abidoye" class="name">Abidoye</h1>
@@ -25,7 +25,7 @@
 </div>
 
 
-<div class="sections" id="second section">
+<div class="sections" id="second-section">
   <h1 class="p2H" id="About">About</h1>
   <h1 class="p2H" id="Me">Me</h1>
   <i class="fa-solid fa-quote-left"></i>
@@ -43,7 +43,14 @@
   <div id="line2" class="lines"></div>
 </div>
 
-
+<script>
+  function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
 
 </body>
 </html>
