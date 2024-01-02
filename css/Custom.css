@@ -176,3 +176,33 @@ z-index: 3;
   left: 500px;
   top:-100px
 }
+#third-section{
+  z-index: 1;
+  height: 690px;
+  width: 100%;
+  background-color: #FFED76;
+  position: relative;
+  top: 117px;
+  left: 39px;
+  border: 3px solid black;
+}
+#Projects{
+  z-index: 3;
+  font-family: "Spicy Rice";
+  font-size: 120px;
+  position: relative;
+  left: 530px;
+  top: 190px;
+}
+#dropdown{
+  height: 66px;
+  width: 517px;
+  background-color: white ;
+  border: 4px solid black;
+  font-family: "Pridi";
+  font-size: 30px;
+  position: relative;
+  top: 190px;
+  left: 480px;
+}
+.
