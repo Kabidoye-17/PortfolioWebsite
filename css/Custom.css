@@ -5,6 +5,7 @@
   margin: 0px;
 }
 body{
+  height: fit-content;
 }
 
 nav a{
@@ -22,9 +23,8 @@ nav{
   height: 40px;
   display: flex;
   justify-content: center;
-  position: fixed;
-  left: 500px;
-  top:39px;
+  position: relative;
+  top:15px;
 
 }
 nav a:hover{
@@ -35,11 +35,11 @@ nav a:active{
 }
 
 #first\ section{
-z-index: 1;
+  z-index: 1;
   height: 690px;
   width: 100%;
   background-color: #F8B9E4;
-  position: fixed;
+  position: relative;
   top: 39px;
   left: 39px;
   border: 3px solid black;
@@ -49,14 +49,14 @@ z-index: 1;
   z-index: 3;
   font-family: "Spicy Rice";
   font-size: 150px;
-  position: fixed;
+  position: relative;
   left: 200px;
 }
 #kelly{
-  top: 200px;
+  top: 100px;
 }
 #Abidoye{
-  top: 380px;
+  top: 50px;
 }
 #jobDec{
   z-index: 2;
@@ -64,16 +64,16 @@ z-index: 1;
   font-family: "Pridi";
   font-size: 40px;
   font-weight: 1000;
-  position: fixed;
-  top: 550px;
+  position: relative;
+  top: 10px;
   color: white;
   left: 200px;
 }
 #contactRec{
   z-index: 2;
-  position: fixed;
-  top:39px;
-  right: 0;
+  position: relative;
+  top:-537px;
+  right: -1335px;
   width: 187px;
   height: 735px;
   background-color: #9AE5E0;
@@ -82,9 +82,9 @@ z-index: 1;
 }
 #projectRec{
   z-index: 2;
-  position: fixed;
-  top:39px;
-  right: 187px;
+  position: relative;
+  top:-737px;
+  right: -958px;
   width: 187px;
   height: 535px;
   background-color: #FFED76;
@@ -92,9 +92,9 @@ z-index: 1;
 }
 #aboutRec{
   z-index: 2;
-  position: fixed;
-  top:39px;
-  right: 374px;
+  position: relative;
+  top:-937px;
+  right: -581px;
   width: 187px;
   height: 335px;
   background-color: #E9B9F3;
@@ -113,3 +113,64 @@ z-index: 1;
   cursor: pointer;
 }
 
+#second\ section{
+  z-index: 1;
+  height: 690px;
+  width: 100%;
+  position: relative;
+  top: 78px;
+  left: 39px;
+  background-color: #E9B9F3;
+  border: 3px solid black;
+
+}
+.p2H{
+z-index: 3;
+  font-family: "Spicy Rice";
+  font-size: 120px;
+  position: relative;
+  left: 42px;
+}
+#About{
+  top: 10px;
+}
+#Me{
+  top:-20px;
+}
+#Aboutmetext{
+  position: relative;
+  top: -90px;
+  left: 500px;
+  width: 600px;
+  font-size: 25px;
+  text-align: justify;
+}
+.fa-quote-left{
+  scale: 400%;
+  position: relative;
+  top:-85px;
+  left: 425px;
+  color: white;
+}
+.fa-quote-right{
+  scale: 400%;
+  position: relative;
+  left: 1150px;
+  top: -90px;
+  color: white;
+}
+.lines{
+  z-index: 5;
+  background-color: #ffffff;
+  height: 10px;
+  width: 580px;
+  position: relative;
+}
+#line1{
+  top:-100px;
+  left: 500px
+}
+#line2{
+  left: 500px;
+  top:-100px
+}
