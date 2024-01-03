@@ -35,24 +35,28 @@ header, footer, #divider1, #divider2, divider3, #side{
   font-weight: 1000;
   color: white;
 }
+
+
 #contactRec{
   width: 165.75px;
-  height: 735px;
+  height: 535px;
   background-color: #9AE5E0;
   border-radius: 0 0 30px 30px ; /* Top-left and top-right corners are rounded, bottom corners are flat */
-
+  transition: transform 1s ease-in-out 0s;
 }
 #projectRec{
   width: 165.75px;
-  height: 535px;
+  height: 335px;
   background-color: #FFED76;
   border-radius: 0 0 30px 30px ;
+  transition: transform 1s ease-in-out 0s;
 }
 #aboutRec{
   width:165.75px;
-  height: 335px;
+  height: 135px;
   background-color: #E9B9F3;
   border-radius: 0 0 30px 30px ;
+  transition: transform 1s ease-in-out 0s;
 }
 
 .navbuttons{
@@ -65,6 +69,8 @@ header, footer, #divider1, #divider2, divider3, #side{
   color: white;
   border: none;
   background-color: transparent;
+
+  transition:all .5s ease 0s;
 }
 nav{
   z-index: 3;
@@ -113,6 +119,8 @@ nav{
   background-color: transparent;
   height: 50px;
   scale: 350%;
+
+  transition: transform 0.3s ease 0.1s;
 }
 .content{
   display: none;

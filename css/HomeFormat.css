@@ -9,6 +9,7 @@
 /* row start column start row end column end*/
 header{
   grid-area:1/1/1/4 ;
+  z-index: 5;
 }
 .side{
   grid-area: 1/1/10/2;
@@ -48,6 +49,7 @@ footer{
   z-index: 1;
   grid-area: 1/13/7/14;
   justify-self: end;
+
 }
 #projectRec{
   z-index: 1;
