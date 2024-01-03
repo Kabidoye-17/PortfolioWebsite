@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
+
 header, footer, #divider1, #divider2, divider3, #side{
   background-color: white;
 }
@@ -18,4 +22,53 @@ header, footer, #divider1, #divider2, divider3, #side{
   border-style: solid;
   border-color: black;
 }
+.name{
+  font-family: "Spicy Rice";
+  font-size: 150px;
+}
 
+#jobDec{
+  width: 350px;
+  font-family: "Pridi";
+  font-size: 40px;
+  font-weight: 1000;
+  color: white;
+}
+#contactRec{
+  width: 165.75px;
+  height: 735px;
+  background-color: #9AE5E0;
+  border-radius: 0 0 30px 30px ; /* Top-left and top-right corners are rounded, bottom corners are flat */
+
+}
+#projectRec{
+  width: 165.75px;
+  height: 535px;
+  background-color: #FFED76;
+  border-radius: 0 0 30px 30px ;
+}
+#aboutRec{
+  width:165.75px;
+  height: 335px;
+  background-color: #E9B9F3;
+  border-radius: 0 0 30px 30px ;
+}
+
+.navbuttons{
+  font-family: "Pridi";
+  font-weight: 350;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px 20px;
+  height: 40px;
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+nav{
+  z-index: 3;
+  padding: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
