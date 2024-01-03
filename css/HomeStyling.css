@@ -1,0 +1,21 @@
+header, footer, #divider1, #divider2, divider3, #side{
+  background-color: white;
+}
+.landing{
+  background-color:#F8B9E4;
+}
+.aboutme{
+  background-color: #E9B9F3;
+}
+.projects{
+  background-color: #FFED76;
+}
+.contactme{
+  background-color: #9AE5E0;
+}
+.landing, .aboutme, .projects, .contactme{
+  border-width: 3px 0px 3px 3px;
+  border-style: solid;
+  border-color: black;
+}
+
