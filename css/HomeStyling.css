@@ -126,4 +126,24 @@ nav{
   color: black;
   border: 4px solid black;
 }
-
+.contactdetails{
+  border-right: 4px solid black;;
+}
+#QR{
+  width: 216px;
+  height: 240px;
+  border: 4px solid black;
+}
+#scanme{
+  font-family: "Pridi";
+  font-weight: bolder;
+  font-size: 36px;
+}
+.fa-envelope{
+color: white;
+  scale: 400%;
+}
+.fa-linkedin{
+  color: white;
+  scale: 400%;
+}
