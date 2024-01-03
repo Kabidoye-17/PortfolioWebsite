@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+}
+
+.header,.footer,.side{
+  background-color: white;
+}
+.main{
+  background-color: #FFED76;
+  border-width: 3px 0px 3px 3px;
+  border-style: solid;
+  border-color: black;
+}
+#PI{
+  width: 331px;
+  height: 335px;
+  border: 3px solid black;
+}
+#PD{
+  width: 461px;
+  height: 315px;
+  font-size: 20px;
+}
+
+#PN1, #PN2{
+  font-family: "Spicy Rice";
+  font-size: 150px;
+  color: black;
+}
+#back{
+  font-family: "Pridi";
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+}
+.fa-chevron-left, .fa-chevron-right{
+  font-size: 40px;
+  color: white;
+}
