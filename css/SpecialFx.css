@@ -1,9 +1,11 @@
 
 .navbuttons:hover{
   color: yellow;
+  cursor: pointer;
 }
 .navbuttons:active{
   color: yellow;
+  cursor: grabbing;
 }
 #contactRec:hover{
   background-color: #8bceca;
@@ -17,11 +19,16 @@
   background-color: #d2a7db ;
   cursor: pointer;
 }
+#contactRec:active, #projectRec:active, #aboutRec:active{
+  cursor: grabbing;
+}
 .content a:hover, #submit:hover{
   background-color: #d7d7d7;
+  cursor: pointer;
 }
 .content a:active, #submit:active{
   background-color: #a6a6a6;
+  cursor: grabbing;
 }
 #chevron:hover + .content,
 .content:hover {
@@ -30,4 +37,12 @@
 #chevron:hover{
   color: #FFED76;
 }
+ .fa-chevron-left:hover, #photoright:hover{
+   color: #d7d7d7;
+   cursor: pointer;
+ }
+.fa-chevron-left:active, #photoright:active{
+   color: #a6a6a6;
+  cursor: grabbing;
+ }
 
