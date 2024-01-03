@@ -10,13 +10,13 @@
 header{
   grid-area:1/1/1/4 ;
 }
-#side{
+.side{
   grid-area: 1/1/10/2;
 }
 .landing{
   grid-area: 2/2/3/4
 }
-#divider1{
+footer{
   grid-area: 3/1/4/4;
 }
 .aboutme{
