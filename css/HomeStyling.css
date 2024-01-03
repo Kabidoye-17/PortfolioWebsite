@@ -72,3 +72,24 @@ nav{
   display: flex;
   justify-content: center;
 }
+.p2H{
+  z-index: 3;
+  font-family: "Spicy Rice";
+  font-size: 120px;
+}
+#Aboutmetext{
+  width: 600px;
+  font-size: 25px;
+  text-align: justify;
+}
+.fa-quote-right, .fa-quote-left{
+  scale: 400%;
+  color: white;
+}
+.lines{
+  z-index: 5;
+  background-color: #ffffff;
+  height: 10px;
+  width: 580px;
+}
+
