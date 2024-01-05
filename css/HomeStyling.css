@@ -152,10 +152,12 @@ nav{
 .fa-envelope{
 color: white;
   scale: 400%;
+  transition: transform 1s ease 0s;
 }
 .fa-linkedin{
   color: white;
   scale: 400%;
+  transition: transform 1s ease 0s;
 }
 #namebar, #emailbar{
   height:49px;

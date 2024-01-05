@@ -57,9 +57,6 @@
   cursor: grabbing;
  }
 
-@keyframes  slideinleft {
-  from{translateX(-300px)
-  }
-  to{ translateX(0)
-  }
+.fa-linkedin:hover, .fa-envelope:hover{
+  transform: translateY(-10px);
 }
