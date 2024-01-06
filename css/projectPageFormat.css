@@ -37,8 +37,23 @@
   grid-template-columns: repeat(12, 110.5px);
 }
 
-.main #PI {
+
+.slider-box{
   grid-area: 3/2/6/5;
+}
+
+.slider{
+  display: flex;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.slider-nav{
+  grid-area: 5/3/6/5;
+  position: absolute;
+  left: 235px;
+
+
 }
 .main #PD{
   grid-area: 4/10/7/13;

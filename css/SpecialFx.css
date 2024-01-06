@@ -60,3 +60,7 @@
 .fa-linkedin:hover, .fa-envelope:hover{
   transform: translateY(-10px);
 }
+.slider-nav a:hover{
+ color: orange;
+}
+
