@@ -15,43 +15,47 @@
   border-color: black;
 }
 .slider img{
-  width: 331px;
-  height: 335px;
+  width: 37.5rem;
+  height: 37.5rem;
   flex: 1 0 100%;
   scroll-snap-align: start;
 }
 .slider{
   border: 3px solid black;
-  width: 331px;
-  height: 335px;
+  width: 37.5rem; /*600*/
+  height: 37.5rem;
 }
 .slider-nav a{
-  padding-left: 15px;
+  padding-left: 3.125rem; /*50*/
   z-index: 3;
   color: black;
 
 }
 
+.fa-circle{
+  scale: 150%;
+}
 #PD{
-  width: 461px;
-  height: 315px;
-  font-size: 21px;
+  width: 31.25rem; /*500*/
+  height: 19.688rem; /*315*/
+  font-size: 1.563rem; /*25*/
   font-family: "Hind Guntur";
 }
 
 #PN1, #PN2{
   font-family: "Spicy Rice";
-  font-size: 150px;
+  font-size: 12rem; /*150*/
   color: black;
 }
 #back{
   font-family: "Pridi";
-  font-size: 40px;
+  font-size: 4rem; /*40px*/
   text-decoration: none;
   font-weight: bolder;
   color: white;
+  width: 15.625rem;
 }
-.fa-chevron-left, .fa-chevron-right{
-  font-size: 40px;
+.fa-chevron-left{
+  font-size: 4rem; /* 40px*/
   color: white;
 }

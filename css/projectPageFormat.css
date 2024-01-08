@@ -8,8 +8,8 @@
 
 .container {
   display: grid;
-  grid-template-rows:39px 729px 39px;
-  grid-template-columns: 39px 1326px;
+  grid-template-rows:13fr  243fr 13fr; /*39 729 39*/
+  grid-template-columns: 1fr 34fr; /* 39 1326*/
 
 }
 
@@ -33,8 +33,8 @@
   display: grid;
   background-color: palevioletred;
   grid-area: 2/2/3/4;
-  grid-template-rows: repeat(6, 121px);
-  grid-template-columns: repeat(12, 110.5px);
+  grid-template-rows: repeat(6, 1fr); /*121*/
+  grid-template-columns: repeat(12, 1fr); /*110.5*/
 }
 
 
@@ -51,14 +51,15 @@
 .slider-nav{
   grid-area: 5/3/6/5;
   position: absolute;
-  left: 235px;
-
+  left: 14.625rem;
+  /*left: 235px;*/
 
 }
 .main #PD{
-  grid-area: 4/10/7/13;
+  grid-area: 3/10/5/13;
   text-align: justify;
   justify-self: left;
+  align-self: center;
 }
 .main #PN1{
   grid-area: 1/8/2/14;
