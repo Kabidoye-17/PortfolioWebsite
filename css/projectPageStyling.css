@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap');
 *{
   margin: 0;
 }
@@ -35,7 +35,8 @@
 #PD{
   width: 461px;
   height: 315px;
-  font-size: 20px;
+  font-size: 21px;
+  font-family: "Hind Guntur";
 }
 
 #PN1, #PN2{

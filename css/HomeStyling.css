@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maitree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap');
 
 header, footer, #divider1, #divider2, divider3, #side{
   background-color: white;
@@ -86,8 +87,9 @@ nav{
 }
 #Aboutmetext{
   width: 600px;
-  font-size: 25px;
+  font-size: 24.8px;
   text-align: justify;
+  font-family: "Hind Guntur";
 }
 .fa-quote-right, .fa-quote-left{
   scale: 400%;
