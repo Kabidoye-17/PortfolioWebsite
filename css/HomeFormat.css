@@ -130,7 +130,7 @@ align-self: start;
   grid-template-rows: repeat(9, 1fr) ; /*9, 80*/
   grid-template-columns: repeat(6, 1fr); /*6, 72*/
 }
-#QR{
+#QR, #QR img{
   grid-area: 4/2/7/6;
   justify-self: center;
 }

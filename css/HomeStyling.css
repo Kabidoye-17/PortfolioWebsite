@@ -141,7 +141,7 @@ nav{
 .contactdetails{
   border-right: 4px solid black;;
 }
-#QR{
+#QR, #QR img{
   width: 13.5rem/*216px*/;
   height: 15rem/*240px*/;
   border: 4px solid black;
