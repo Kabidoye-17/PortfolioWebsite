@@ -57,7 +57,7 @@
   cursor: grabbing;
  }
 
-.fa-linkedin:hover, .fa-envelope:hover{
+.fa-linkedin:hover, .fa-envelope:hover, .fa-github:hover{
   transform: translateY(-10px);
 }
 .slider-nav a:hover{
