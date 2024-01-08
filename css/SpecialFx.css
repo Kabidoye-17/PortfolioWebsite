@@ -1,0 +1,66 @@
+
+.navbuttons:hover{
+  cursor: pointer;
+  transform: translateY(10px);
+  color: yellow;
+}
+.navbuttons:active{
+  color: yellow;
+  cursor: grabbing;
+}
+#contactRec:hover{
+  background-color: #8bceca;
+  cursor: pointer;
+  transform-origin: top;
+  transform: scaleY(1.125);
+  /* when extending to box, 4.3*/
+}
+#projectRec:hover{
+  background-color: #e6d56a;
+  cursor: pointer;
+  transform-origin: top;
+  transform: scaleY(1.25);
+  /* when extending to box, 4.6*/
+}
+#aboutRec:hover{
+  background-color: #d2a7db ;
+  cursor: pointer;
+  transform-origin: top;
+  transform: scaleY(1.5);
+  /* when extending to box, 5.7*/
+}
+#contactRec:active, #projectRec:active, #aboutRec:active{
+  cursor: grabbing;
+}
+.content a:hover, #submit:hover{
+  background-color: #d7d7d7;
+  cursor: pointer;
+}
+.content a:active, #submit:active{
+  background-color: #a6a6a6;
+  cursor: grabbing;
+}
+#chevron:hover + .content,
+.content:hover {
+  display: block;
+}
+#chevron:hover{
+  color: #FFED76;
+  transform: rotateZ(180deg);
+}
+ .fa-chevron-left:hover, #photoright:hover{
+   color: #d7d7d7;
+   cursor: pointer;
+ }
+.fa-chevron-left:active, #photoright:active{
+   color: #a6a6a6;
+  cursor: grabbing;
+ }
+
+.fa-linkedin:hover, .fa-envelope:hover{
+  transform: translateY(-10px);
+}
+.slider-nav a:hover{
+ color: orange;
+}
+

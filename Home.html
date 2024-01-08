@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home - Kelly Abidoye</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/HomeFormat.css">
+  <link rel="stylesheet" href="css/HomeStyling.css">
+  <link rel="stylesheet" href="css/SpecialFx.css">
+  <script src="https://kit.fontawesome.com/1dd223abed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+  <header id="header"></header>
+  <div id="side"></div>
+
+  <div class="landing">
+    <nav>
+      <button class="navbuttons" id="aboutmebutton"><i class="fa-solid fa-user-large"></i>About Me</button>
+      <button class="navbuttons" id="projectsbutton"><i class="fa-solid fa-folder-open"></i>Projects</button>
+      <button class="navbuttons" id="contactmebutton"><i class="fa-solid fa-phone"></i>Contact Me</button>
+    </nav>
+    <h1 id="kelly" class="name">Kelly</h1>
+    <h1 id="Abidoye" class="name">Abidoye</h1>
+    <p id="jobDec">Software Engineer</p>
+    <button id="contactRec"></button>
+    <button id="projectRec"></button>
+    <button id="aboutRec"></button>
+  </div>
+  <div id="divider1"></div>
+
+  <div class="aboutme">
+    <h1 class="p2H" id="About">About</h1>
+    <h1 class="p2H" id="Me">Me</h1>
+    <i class="fa-solid fa-quote-left"></i>
+    <div id="line1" class="lines"></div>
+    <p id="Aboutmetext">"Hey hey, I'm Kelly, on a mission to fuse code
+      with creativity! When I'm not crafting digital wonders in front
+      and back-end development, you'll find me strumming tunes on my
+      guitar or whipping up cozy crochet creations. I thrive on infusing
+      fun into tech, transforming lines of code into user-friendly magic.
+      Come join me on this exciting journey where creativity meets coding,
+      and together, let's add a touch of digital sparkle!"
+    </p>
+    <i class="fa-solid fa-quote-right"></i>
+    <div id="line2" class="lines"></div>
+  </div>
+  <div id="divider2"></div>
+
+  <div class="projects">
+    <h1 id="Projects">Projects</h1>
+    <p id="select">Select A Project</p>
+    <button id="chevron"><i class="fa-solid fa-chevron-down"></i></button>
+    <div class="content">
+      <a id="GoGoTaxi" href="./GoGoTaxi.html">GoGoTaxi</a>
+      <a id="RiskyQuizness" href="./Risky-Quizness.html">Risky Quizness</a>
+      <a id="PortfolioWebsite" href="./Portfolio-Website.html">Portfolio Website</a>
+    </div>
+  </div>
+  <div id="divider3"></div>
+
+  <div class="contactme">
+    <div class="contactdetails">
+      <h3 id="scanme">Scan Me!</h3>
+      <img id="QR" src="img/sampleqr.png" alt="this is a qrcode">
+      <a id="linkedin" href="https://www.linkedin.com/in/kelly-abidoye/"><i class="fa-brands fa-linkedin"></i></a>
+      <a id="email" href="mailto:Kabidoye17@outlook.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <div class="contactform">
+      <h1 id="contactheading">Contact Me</h1>
+      <form class="contactlayout" action="" method="POST">
+        <label id="namelabel" for="namebar">Name: </label>
+        <input type="text" id="namebar" name="namebar" placeholder="Name" required>
+        <label id="emaillabel" for="emailbar">Email: </label>
+        <input type="text" id="emailbar" name="Email" placeholder="Email" required>
+        <label id="messagelabel" for="messagebox">Message: </label>
+        <textarea id="messagebox" name="messagebox" placeholder="Message" rows="5"></textarea>
+        <br> <br>
+        <input id="submit" name="submit" type="submit" value="submit">
+      </form>
+    </div>
+  </div>
+  <footer id="footer"></footer>
+</div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="js/email.js"></script>
+<script src="js/scroll.js"></script>
+</body>
+</html>

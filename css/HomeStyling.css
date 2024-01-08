@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maitree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap');
+
+header, footer, #divider1, #divider2, divider3, #side{
+  background-color: white;
+}
+.landing{
+  background-color:#F8B9E4;
+}
+.aboutme{
+  background-color: #E9B9F3;
+}
+.projects{
+  background-color: #FFED76;
+}
+.contactme{
+  background-color: #9AE5E0;
+}
+.landing, .aboutme, .projects, .contactme{
+  border-width: 3px 0px 3px 3px;
+  border-style: solid;
+  border-color: black;
+}
+.name{
+  font-family: "Spicy Rice";
+  font-size: 150px;
+}
+
+#jobDec{
+  width: 350px;
+  font-family: "Pridi";
+  font-size: 40px;
+  font-weight: 1000;
+  color: white;
+}
+
+
+#contactRec{
+  width: 165.75px;
+  height: 535px;
+  background-color: #9AE5E0;
+  border-radius: 0 0 30px 30px ; /* Top-left and top-right corners are rounded, bottom corners are flat */
+  transition: transform 1s ease-in-out 0s;
+}
+#projectRec{
+  width: 165.75px;
+  height: 335px;
+  background-color: #FFED76;
+  border-radius: 0 0 30px 30px ;
+  transition: transform 1s ease-in-out 0s;
+}
+#aboutRec{
+  width:165.75px;
+  height: 135px;
+  background-color: #E9B9F3;
+  border-radius: 0 0 30px 30px ;
+  transition: transform 1s ease-in-out 0s;
+}
+
+.navbuttons{
+  font-family: "Pridi";
+  font-weight: 350;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px 20px;
+  height: 40px;
+  color: white;
+  border: none;
+  background-color: transparent;
+
+  transition:all .5s ease 0s;
+}
+nav{
+  z-index: 3;
+  padding: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.p2H{
+  z-index: 3;
+  font-family: "Spicy Rice";
+  font-size: 120px;
+}
+#Aboutmetext{
+  width: 600px;
+  font-size: 24.8px;
+  text-align: justify;
+  font-family: "Hind Guntur";
+}
+.fa-quote-right, .fa-quote-left{
+  scale: 400%;
+  color: white;
+}
+.lines{
+  z-index: 5;
+  background-color: #ffffff;
+  height: 10px;
+  width: 580px;
+}
+#Projects, #contactheading{
+  z-index: 3;
+  font-family: "Spicy Rice";
+  font-size: 120px;
+}
+
+
+#select{
+  font-family: "Pridi";
+  font-size: 30px;
+  background-color: white;
+  border: 4px solid black;
+  height: 50px;
+  width: 517px;
+}
+#chevron{
+  border: none;
+  background-color: transparent;
+  height: 50px;
+  scale: 350%;
+
+  transition: transform 0.3s ease 0.1s;
+}
+.content{
+  display: none;
+}
+.content a{
+  background-color: white;
+  display: block;
+  height: 50px;
+  width: 517px;
+  font-family: "Pridi";
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  border: 4px solid black;
+}
+.contactdetails{
+  border-right: 4px solid black;;
+}
+#QR{
+  width: 216px;
+  height: 240px;
+  border: 4px solid black;
+}
+#scanme{
+  font-family: "Pridi";
+  font-weight: bolder;
+  font-size: 36px;
+}
+.fa-envelope{
+color: white;
+  scale: 400%;
+  transition: transform 1s ease 0s;
+}
+.fa-linkedin{
+  color: white;
+  scale: 400%;
+  transition: transform 1s ease 0s;
+}
+#namebar, #emailbar{
+  height:49px;
+}
+#namebar, #emailbar, #messagebox{
+  font-family: "Maitree" ;
+  font-weight:bold ;
+  border:  4px solid black;
+  border-radius: 15px;
+  width:520px;
+  font-size: 25px;
+}
+#namelabel, #emaillabel, #messagelabel{
+    font-family: "Pridi";
+    font-size: 30px;
+    font-weight: bolder;
+}
+#submit{
+  font-size: 15px;
+  font-family: "Maitree" ;
+  font-weight:bold ;
+  border:  4px solid black;
+  border-radius: 15px;
+  height: 49px;
+  width: 80px;
+
+}
+

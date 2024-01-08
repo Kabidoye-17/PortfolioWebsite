@@ -1,47 +1,253 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
 *{
   margin: 0px;
 }
 body{
-  background-color: #dde5b6;
+  height: fit-content;
 }
-header p{
-  font-family: "Space Mono";
-  font-weight: 700;
-  font-size: 30px;
-  height: 40px;
-  width: 20%;
-  padding: 10px;
-}
-header{
-  background-color: #6c792b;
-  display: flex;
-  justify-content: normal;
-  position: -ms-device-fixed;
-  top: 0px;
-  color: white;
-}
-nav a{
-  font-family: "Space Mono";
+
+.navbuttons{
+  font-family: "Pridi";
   font-weight: 350;
   font-size: 30px;
   text-decoration: none;
   padding: 5px 20px;
   height: 40px;
   color: white;
+  border: none;
+  background-color: transparent;
 }
 nav{
+  z-index: 3;
   padding: 10px;
-  width: 80%;
   height: 40px;
   display: flex;
-  justify-content: right;
+  justify-content: center;
+  position: relative;
+  top:15px;
 
 }
-nav a:hover{
+.navbuttons:hover{
   color: yellow;
 }
-nav a:active{
+.navbuttons:active{
   color: yellow;
+}
+
+#first\ section{
+  z-index: 1;
+  height: 690px;
+  width: 100%;
+  background-color: #F8B9E4;
+  position: relative;
+  top: 39px;
+  left: 39px;
+  border: 3px solid black;
+}
+
+.name{
+  z-index: 3;
+  font-family: "Spicy Rice";
+  font-size: 150px;
+  position: relative;
+  left: 200px;
+}
+#kelly{
+  top: 100px;
+}
+#Abidoye{
+  top: 50px;
+}
+#jobDec{
+  z-index: 2;
+  width: 350px;
+  font-family: "Pridi";
+  font-size: 40px;
+  font-weight: 1000;
+  position: relative;
+  top: 10px;
+  color: white;
+  left: 200px;
+}
+#contactRec{
+  z-index: 2;
+  position: relative;
+  top:-537px;
+  right: -1335px;
+  width: 187px;
+  height: 735px;
+  background-color: #9AE5E0;
+  border-radius: 0 0 30px 30px ; /* Top-left and top-right corners are rounded, bottom corners are flat */
+
+}
+#projectRec{
+  z-index: 2;
+  position: relative;
+  top:-737px;
+  right: -958px;
+  width: 187px;
+  height: 535px;
+  background-color: #FFED76;
+  border-radius: 0 0 30px 30px ;
+}
+#aboutRec{
+  z-index: 2;
+  position: relative;
+  top:-937px;
+  right: -581px;
+  width: 187px;
+  height: 335px;
+  background-color: #E9B9F3;
+  border-radius: 0 0 30px 30px ;
+}
+#contactRec:hover{
+  background-color: #8bceca;
+  cursor: pointer;
+}
+#projectRec:hover{
+  background-color: #e6d56a;
+  cursor: pointer;
+}
+#aboutRec:hover{
+  background-color: #d2a7db ;
+  cursor: pointer;
+}
+
+#second-section{
+  z-index: 1;
+  height: 690px;
+  width: 100%;
+  position: relative;
+  top: 78px;
+  left: 39px;
+  background-color: #E9B9F3;
+  border: 3px solid black;
+
+}
+.p2H{
+z-index: 3;
+  font-family: "Spicy Rice";
+  font-size: 120px;
+  position: relative;
+  left: 42px;
+}
+#About{
+  top: 10px;
+}
+#Me{
+  top:-20px;
+}
+#Aboutmetext{
+  position: relative;
+  top: -90px;
+  left: 500px;
+  width: 600px;
+  font-size: 25px;
+  text-align: justify;
+}
+.fa-quote-left{
+  scale: 400%;
+  position: relative;
+  top:-85px;
+  left: 425px;
+  color: white;
+}
+.fa-quote-right{
+  scale: 400%;
+  position: relative;
+  left: 1150px;
+  top: -90px;
+  color: white;
+}
+.lines{
+  z-index: 5;
+  background-color: #ffffff;
+  height: 10px;
+  width: 580px;
+  position: relative;
+}
+#line1{
+  top:-100px;
+  left: 500px
+}
+#line2{
+  left: 500px;
+  top:-100px
+}
+#third-section{
+  z-index: 1;
+  height: 690px;
+  width: 100%;
+  background-color: #FFED76;
+  position: relative;
+  top: 117px;
+  left: 39px;
+  border: 3px solid black;
+}
+#Projects{
+  z-index: 3;
+  font-family: "Spicy Rice";
+  font-size: 120px;
+  position: relative;
+  left: 530px;
+  top: 190px;
+}
+.dropdown{
+  height: 66px;
+  width: 517px;
+  font-family: "Pridi";
+  font-size: 30px;
+  position: relative;
+  top: 190px;
+  left: 480px;
+}
+#select{
+  font-family: "Pridi";
+  font-size: 30px;
+  position: relative;
+  background-color: white ;
+  border: 4px solid black;
+  top: 13px;
+  left: 10px;
+  width: 517px;
+}
+#chevron{
+  border: none;
+  background-color: transparent;
+  position: relative;
+  top: -37px;
+  left: 450px;
+  scale: 400%;
+}
+#chevron:hover{
+  color: #FFED76;
+}
+
+.dropdown .content{
+  background-color: white;
+  position: absolute;
+  display: none;
+  top: 60px;
+  left: 10px;
+
+}
+.dropdown a{
+  display: block;
+  height: 50px;
+  width: 517px;
+  font-family: "Pridi";
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  border: 4px solid black;
+}
+
+.content a:hover{
+  background-color: #d7d7d7;
+}
+#chevron:hover + .content,
+.content:hover {
+  display: block;
 }
