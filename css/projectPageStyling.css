@@ -15,47 +15,43 @@
   border-color: black;
 }
 .slider img{
-  width: 37.5rem;
-  height: 37.5rem;
+  width: 25rem/*400px*/;
+  height: 25rem/*400px*/;
   flex: 1 0 100%;
   scroll-snap-align: start;
 }
 .slider{
   border: 3px solid black;
-  width: 37.5rem; /*600*/
-  height: 37.5rem;
+  width: 25rem/*400px*/;
+  height: 25rem/*400px*/;
 }
 .slider-nav a{
-  padding-left: 3.125rem; /*50*/
+  padding-left: 0.938rem/*15px*/;
   z-index: 3;
   color: black;
 
 }
 
-.fa-circle{
-  scale: 150%;
-}
 #PD{
-  width: 31.25rem; /*500*/
-  height: 19.688rem; /*315*/
-  font-size: 1.563rem; /*25*/
+  width: 28.813rem/*461px*/;
+  height: 19.688rem/*315px*/;
+  font-size: 1.313rem/*21px*/;
   font-family: "Hind Guntur";
 }
 
 #PN1, #PN2{
   font-family: "Spicy Rice";
-  font-size: 12rem; /*150*/
+  font-size: 9.375rem/*150px*/;
   color: black;
 }
 #back{
   font-family: "Pridi";
-  font-size: 4rem; /*40px*/
+  font-size: 2.5rem/*40px*/;
   text-decoration: none;
   font-weight: bolder;
   color: white;
-  width: 15.625rem;
 }
-.fa-chevron-left{
-  font-size: 4rem; /* 40px*/
+.fa-chevron-left, .fa-chevron-right{
+  font-size:  2.5rem/*40px*/;
   color: white;
 }

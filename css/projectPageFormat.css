@@ -8,8 +8,8 @@
 
 .container {
   display: grid;
-  grid-template-rows:13fr  243fr 13fr; /*39 729 39*/
-  grid-template-columns: 1fr 34fr; /* 39 1326*/
+  grid-template-rows:2.438rem 45.563rem 2.438rem ;
+  grid-template-columns:  2.438rem 82.875rem; /* 39 1326*/
 
 }
 
@@ -39,7 +39,7 @@
 
 
 .slider-box{
-  grid-area: 3/2/6/5;
+  grid-area: 2/2/5/5;
 }
 
 .slider{
@@ -51,7 +51,7 @@
 .slider-nav{
   grid-area: 5/3/6/5;
   position: absolute;
-  left: 14.625rem;
+  left: 16.625rem;
   /*left: 235px;*/
 
 }
