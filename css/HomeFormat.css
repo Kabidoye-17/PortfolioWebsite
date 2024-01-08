@@ -3,8 +3,8 @@
 }
 .container{
   display: grid;
-  grid-template-rows:39px 729px 39px 729px 39px 729px 39px 729px 39px;
-  grid-template-columns: 39px 1326px;
+  grid-template-rows:2.438rem 45.563rem 2.438rem 45.563rem 2.438rem 45.563rem 2.438rem 45.563rem 2.438rem;
+  grid-template-columns:  2.438rem 82.875rem; /* 39 1326*/
 }
 /* row start column start row end column end*/
 header{
@@ -41,8 +41,8 @@ footer{
 
 .landing, .aboutme, .projects, .contactme{
   display: grid;
-  grid-template-rows: repeat(6, 121px);
-  grid-template-columns: repeat(12, 110.5px);
+  grid-template-rows:repeat(6, 1fr); /*121*/
+  grid-template-columns: repeat(12, 1fr); /*110.5*/
 }
 
 #contactRec{
@@ -127,8 +127,8 @@ align-self: start;
   z-index: 1;
   grid-area: 1/1/7/5;
   display: grid;
-  grid-template-rows: repeat(9, 80px) ;
-  grid-template-columns: repeat(6, 72px);
+  grid-template-rows: repeat(9, 1fr) ; /*9, 80*/
+  grid-template-columns: repeat(6, 1fr); /*6, 72*/
 }
 #QR{
   grid-area: 4/2/7/6;
@@ -151,7 +151,7 @@ align-self: start;
 .contactform{
   grid-area: 1/5/7/14;
   display: grid;
-  grid-template-rows: repeat(9, 80px) ;
+  grid-template-rows: repeat(9, 1fr) ;
   grid-template-columns: repeat(12, 1fr);
 }
 
